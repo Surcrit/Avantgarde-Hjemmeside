@@ -3,13 +3,79 @@
   padding: 0;
 }
 
+body {
+  width: auto;
+
+}
+
 #parallax_section {
   width: auto;
+
 }
+
+
+#trapez_nav1 {
+  width: 1903px;
+  height: 960px;
+float: left;
+
+}
+
+#trapez_1 {
+	border-top: 70px solid;
+    border-color: rgba(255, 255, 255, 0.6);
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 500px;
+  margin: 0 auto;
+position: fixed;
+left: 0;
+right: 0;
+
+}
+
+ #logo {
+  background-image: url(Avantgarde_logo.png);
+  width: 300px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+margin-top: -66px;
+
+}
+
+#trapez_2 {
+	border-bottom: 70px solid;
+  border-color: rgba(255, 255, 255, 0.6);
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 652px;
+position: absolute;
+margin-top: 890px;
+left: 0;
+right: 0;
+
+}
+#trapez_3 {
+	border-bottom: 70px solid;
+    border-color: rgba(255, 255, 255, 0.6);
+	border-left: 50px solid transparent;
+	height: 0;
+	width: 651px;
+margin-left: 1202px;
+margin-top: 890px;
+
+left: 0;
+right: 0;
+
+}
+
 
 .parallax {
   background-image: url(parallax_back.jpg);
-  height: 1080px;
+  height: 960px;
   width: auto;
   background-attachment: fixed;
   background-position: center;
