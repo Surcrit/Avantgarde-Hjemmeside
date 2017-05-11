@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#parallax_section {
+  width: auto;
+}
+
+.parallax {
+  background-image: url(parallax_back.jpg);
+  height: 1080px;
+  width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#main_section {
+  height: 2000px;
+  background-color: white;
+}
