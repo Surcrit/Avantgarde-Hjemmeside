@@ -54,10 +54,22 @@ margin-top: -66px;
 	width: 652px;
 position: absolute;
 margin-top: 890px;
+top: 0;
 left: 0;
 right: 0;
 
 }
+
+
+ul li {
+  font-size: 36px;
+  display: inline;
+  line-height: 70px;
+  margin-left: 150px;
+}
+
+
+
 #trapez_3 {
 	border-bottom: 70px solid;
     border-color: rgba(255, 255, 255, 0.6);
@@ -69,6 +81,14 @@ margin-top: 890px;
 
 left: 0;
 right: 0;
+
+}
+
+#trapez_3 ul li {
+  font-size: 36px;
+  display: inline;
+  line-height: 70px;
+  margin-left: 120px;
 
 }
 
@@ -86,5 +106,5 @@ right: 0;
 
 #main_section {
   height: 2000px;
-  background-color: white;
+  background-color: black;
 }
