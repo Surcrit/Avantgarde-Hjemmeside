@@ -32,7 +32,7 @@ float: left;
 position: fixed;
 left: 0;
 right: 0;
-
+z-index: 9999;
 }
 
  #logo {
@@ -61,6 +61,17 @@ right: 0;
 }
 
 
+
+#trapez_2.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+
+
+}
+
+
 ul li {
   font-size: 36px;
   display: inline;
@@ -78,9 +89,18 @@ ul li {
 	width: 651px;
 margin-left: 1202px;
 margin-top: 890px;
-
+position: absolute;
 left: 0;
 right: 0;
+
+}
+
+#trapez_3.stick {
+    margin-top: 0 !important;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+
 
 }
 
@@ -106,5 +126,65 @@ right: 0;
 
 #main_section {
   height: 2000px;
-  background-color: black;
+position: relative;
+width: 100%;
+background-color: red;
 }
+
+#bestil_tid_img {
+  background-image: url(bestil_tid.jpg);
+  width: 70%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  float: right;
+}
+
+#grey_thing {
+  background-image: url(grey_thing.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  z-index: 1000;
+  float: left;
+  position: absolute;
+}
+
+
+tr {
+color: white;
+}
+
+
+
+
+
+
+
+/* #grey_thing {
+  border-top: 800px solid;
+    border-color: grey;
+	border-right: 300px solid transparent;
+	height: 0;
+	width: 50%;
+
+position: absolute;
+z-index: 997;
+float: left;
+}
+
+
+#white_thing {
+  width: 0;
+	height: 0;
+	border-left: 0px solid transparent;
+	border-right: 230px solid transparent;
+	border-top: 600px solid red;
+position: absolute;
+margin-left: 1022px;
+
+z-index: 1000;
+
+} */
